@@ -1,8 +1,10 @@
 function repeat(operation, num) {
   if (num === 0) return;
   operation();
-  num--;
-  return repeat(operation, num);
+
+  // TODO: Fix the disabling of eslint here.
+  num--;                         // eslint-disable-line
+  return repeat(operation, num); // eslint-disable-line
 }
 
-module.exports = repeat
+module.exports = repeat;

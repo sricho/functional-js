@@ -10,4 +10,4 @@ function getShortMessages(messages) {
   return messages.map(getMessage).filter(shortMessage);
 }
 
-module.exports = getShortMessages
+module.exports = getShortMessages;

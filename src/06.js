@@ -5,4 +5,4 @@ function countWords(inputWords) {
   }, {});
 }
 
-module.exports = countWords
+module.exports = countWords;

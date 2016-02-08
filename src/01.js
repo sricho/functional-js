@@ -2,4 +2,4 @@ function upperCaser(string) {
   return string.toUpperCase();
 }
 
-module.exports = upperCaser
+module.exports = upperCaser;

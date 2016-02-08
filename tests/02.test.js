@@ -1,10 +1,10 @@
-import test from 'tape';
-import sinon from 'sinon';
+import test from "tape";
+import sinon from "sinon";
 
-import higherOrderMethod from '../src/02';
+import higherOrderMethod from "../src/02";
 
-test('02 - Higher order functions', assert => {
-  const msg = 'calls an operation a number of times';
+test("02 - Higher order functions", assert => {
+  const msg = "calls an operation a number of times";
 
   const spy = sinon.spy();
   higherOrderMethod(spy, 7);
