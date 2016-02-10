@@ -22,7 +22,7 @@ test("05 - Every Some", assert => {
     { id: 1 },
   ]);
   expected = true;
-  assert.deepEqual(actual, expected, msg);
+  assert.equal(actual, expected, msg);
 
   msg = "returns false not all users are good users";
   actual = testAllValid([
@@ -31,7 +31,7 @@ test("05 - Every Some", assert => {
     { id: 1 },
   ]);
   expected = false;
-  assert.deepEqual(actual, expected, msg);
+  assert.equal(actual, expected, msg);
 
   assert.end();
 });
