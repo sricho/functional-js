@@ -167,7 +167,7 @@ rules:
   no-spaced-func: 2             # http://eslint.org/docs/rules/no-spaced-func
   no-trailing-spaces: 2         # http://eslint.org/docs/rules/no-trailing-spaces
   no-extra-parens:              # http://eslint.org/docs/rules/no-extra-parens
-    - 2
+    - 0
     - functions
   no-underscore-dangle: 0       # http://eslint.org/docs/rules/no-underscore-dangle
   object-curly-spacing:         # http://eslint.org/docs/rules/object-curly-spacing
