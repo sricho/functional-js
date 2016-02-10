@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint src",
     "posttest": "npm run lint" ,
-    "test": "babel-tape-runner tests/**/*.test.js | faucet"
+    "test": "babel-tape-runner tests/**/*.test.js | faucet",
+    "watch": "nodemon -x 'npm test'"
   },
   "author": "",
   "license": "ISC",
